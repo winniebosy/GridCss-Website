@@ -1,6 +1,6 @@
   
 
-  $(document).ready(function(){
+  $(document).ready(function(){ //prevents jquery from running before the doc finishes loading
     $('a[href="#]') . on('click', function(e) {e.preventDefault
     
      var target = this.hash,
