@@ -4,11 +4,30 @@
 *{
     font-family: 'Maven Pro', sans-serif;
 }
+body{
+    background-color: rgba(0,0,0,0.785);
+}
 
 #s1_header{
     background-color : 1e1109;
 
 }
+ @media only screen and (max-width:820px){
+    #s1_header h1{
+        
+            font-size: 1.5rem;
+           
+        
+    }
+        
+        
+       
+        
+        
+    
+ }
+
+
 #s2_trio{
     background-color :  fefaf7;
 
@@ -43,6 +62,48 @@
 }
 #s10_copyright{
     background-color : 414046;
+   
 
 
+}
+/* s1 header */
+#s1_header{
+    background-image: url("images/interface-imgs/s1-header-lg-center.jpg");
+    height:100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* s6_paintings */
+.painting-1{
+    background: url("/images/paintings-img/1920px-P1150002_Cognacq-Jay_Rembrandt_anesse_de_Balaam_rwk.jpg");
+
+}
+.painting-2{
+
+    background: url("/images/paintings-img/1920px-Rembrandt_-_Rembrandt_and_Saskia_in_the_Scene_of_the_Prodigal_Son_-_Google_Art_Project.jpg");
+}
+.painting-3{
+    background: url("/images/paintings-img/1920px-Rembrandt_van_Rijn_-_Portrait_of_Willem_Burchgraeff_-_O_854_-_Slovak_National_Gallery.jpg");
+}
+.painting-4{
+    background: url("/images/paintings-img/1920px-Rembrandt_van_Rijn_198.jpg");
+}
+.painting-5{
+    background: url("/images/paintings-img/2560px-Rembrandt_Harmensz._van_Rijn_-_Old_Man_with_a_Gold_Chain_-_Google_Art_Project.jpg");
+}
+.painting-6{
+    background: url("/images/paintings-img/2560px-Rembrandt_Harmensz._van_Rijn_-_Zelfportret_op_jeugdige_leeftijd_-_Google_Art_Project.jpg");
+}
+.painting-7{
+    background: url("/images/paintings-img/2880px-Rembrandt_The_Artist_in_his_studio.jpg");
+}
+.painting-8{
+    background: url("/images/paintings-img/Rembrandt-SMELL.jpg");
+}
+.painting-9{
+    background: url("/images/paintings-img/Rembrandt_-_Portrait_of_a_Woman_with_Gloves_-_NGI.808.jpg");
+}
+.painting-10{
+    background: url("images/paintings-img/Rembrandt_van_Rijn_197.jpg");
 }
