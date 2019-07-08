@@ -18,20 +18,52 @@ body{
             font-size: 1.5rem;
            
         
-    }
-        
-        
-       
-        
-        
-    
+    };  
  }
 
 
 #s2_trio{
     background-color :  fefaf7;
-
 }
+
+.myGrid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+
+    }
+
+
+
+@media (max-width:768px){
+    .myGrid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap:10px;
+
+    }
+    .subGrid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap:10px;
+
+    }
+}
+@media (max-width:576px){
+    .myGrid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, auto);
+
+    }
+}
+
+
+
+
+
 #s3_painting_of_the_week{
     background-color : 26221f;
 
