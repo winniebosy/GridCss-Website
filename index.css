@@ -122,6 +122,17 @@ body{
 }
 
 
+.myThumbs{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap:10px;
+    justify-items: center;
+}
+.myThumbs img {
+    display:block;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+}
+
 
 #s3_painting_of_the_week{
     background-color : 26221f;
