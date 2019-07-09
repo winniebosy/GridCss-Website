@@ -69,8 +69,36 @@ body{
         grid-template-rows: repeat(3, auto);
         grid-gap:105x;
 }
+}
 
+/* about section */
+.s4_aboutGrid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,auto);
+    grid-gap:10px;
+    grid-template-areas: 
+    "img-selfpotrait img-selfpotrait img-selfpotrait"
+    "hd-about hd-about hd-about"
+    "txt-about txt-about txt-about"
+    ;
 
+}
+.img-selfpotrait{
+    grid-area:img-selfpotrait;
+    grid-column: 2 / 3;
+}
+.hd-about{
+    grid-area:hd-about;
+    text-align: center;
+}
+.txt-about{
+    grid: txt-about;
+    line-height: 2;
+}
+@media (max-width:760px){
+
+}
 
 
 
@@ -149,3 +177,4 @@ body{
 .painting-10{
     background: url("images/paintings-img/Rembrandt_van_Rijn_197.jpg");
 }
+
