@@ -181,7 +181,7 @@ body{
 }
 /* s6_paintings */
 .myCursor{
-
+   cursor:pointer;
 }
 
 #s6_paintings{
