@@ -180,8 +180,19 @@ body{
     background-size: cover;
 }
 /* s6_paintings */
+.mypaintingContainer{
+    display:grid;
+    min-height:600px;
+    background:white;
+    grid-template-columns: repeat(5, 1fr) ;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    
+}
 .myCursor{
    cursor:pointer;
+   outline:none;
+   
 }
 
 #s6_paintings{
