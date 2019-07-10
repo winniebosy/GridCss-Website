@@ -180,22 +180,11 @@ body{
     background-size: cover;
 }
 /* s6_paintings */
-.mypaintingContainer{
-    display:grid;
-    min-height:600px;
-    background:white;
-    grid-template-columns: repeat(5, 1fr) ;
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-areas: 
+#s6_paintings{
+    background-color : 414046;
+}
+ .mypaintingContainer{ 
     
-    " one one two three three"
-    "one one four five five "
-    "six seven seven five five "
-    "six eight nine nine ten"
-    ;
-    grid-gap:2px;
-    border:2px solid white;
-    outline:none;
 
 }
 .myCursor{
@@ -204,68 +193,92 @@ body{
    
 }
 
-#s6_paintings{
-    background-color : 414046;
-}
+
 
 .painting-1{
-     
+     background: url("/images/paintings-img/1920px-P1150002_Cognacq-Jay_Rembrandt_anesse_de_Balaam_rwk.jpg");
     background-position:center;
      background-size:cover;
+     width: 200px;
+     height: 200px;
+     
      grid-area:One;
+     
 }
 .painting-2{
-    
+    background: url("/images/paintings-img/1920px-Rembrandt_-_Rembrandt_and_Saskia_in_the_Scene_of_the_Prodigal_Son_-_Google_Art_Project.jpg");
     background-position:center;
      background-size:cover;
+     width:200px;
+     height:200px;
+     
+     
      grid-area:Two;
+
 }
 
 .painting-3{
-    
+    background: url("/images/paintings-img/1920px-Rembrandt_van_Rijn_-_Portrait_of_Willem_Burchgraeff_-_O_854_-_Slovak_National_Gallery.jpg");
     background-position:center;
     background-size:cover;
+    width:200px;
+    height:200px;
     grid-area:Three;
 }
 .painting-4{
-    
+    background: url("/images/paintings-img/1920px-Rembrandt_van_Rijn_198.jpg");
     background-position:center;
      background-size:cover;
+     width:200px;
+     height:200px;
      grid-area:Four;
 }
 .painting-5{
+    background: url("/images/paintings-img/2560px-Rembrandt_Harmensz._van_Rijn_-_Old_Man_with_a_Gold_Chain_-_Google_Art_Project.jpg");
     background-position:center;
      background-size:cover;
+     width:200px;
+     height:200px;
      grid-area:Five;
 }
 .painting-6{
-    
+    background: url("/images/paintings-img/2560px-Rembrandt_Harmensz._van_Rijn_-_Zelfportret_op_jeugdige_leeftijd_-_Google_Art_Project.jpg");
     background-position:center;
      background-size:cover;
+     width:200px;
+     height:200px;
      grid-area:Six;
 }
 .painting-7{
-    
+    background: url("/images/paintings-img/2880px-Rembrandt_The_Artist_in_his_studio.jpg");
     background-position:center;
      background-size:cover;
+     width:200px;
+     height:200px;
      grid-area:Seven;
 }
 .painting-8{
-   
+   background: url("/images/paintings-img/Rembrandt-SMELL.jpg");
     background-position:center;
      background-size:cover;
+     width:200px;
+     height:200px;
      grid-area:Eight;
 }
 .painting-9{
-   
+   background: url("/images/paintings-img/Rembrandt_-_Portrait_of_a_Woman_with_Gloves_-_NGI.808.jpg");
     background-position:center;
      background-size:cover;
+     width:200px;
+     height:200px;
      grid-area:Nine;
 }
 .painting-10{
-   
+   background: url("/images/paintings-img/Rembrandt_van_Rijn_197.jpg");
     background-position:center;
      background-size:cover;
+     width:200px;
+     height:200px;
      grid-area:Ten;
 }
 
